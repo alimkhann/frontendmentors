@@ -103,6 +103,11 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--slate-300);
+  padding-bottom: 3rem;
+}
+
+h2 {
+  font-size: 1.25rem;
 }
 
 p {
@@ -115,28 +120,29 @@ p {
   text-align: center;
   gap: 1rem;
 
-  width: 300px;
+  width: 320px;
   height: auto;
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 1.25rem;
 
   background-color: var(--white);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
 
   img {
-    border-radius: 0.5rem;
+    border-radius: 0.625rem;
   }
 
   .heading {
     font-weight: 700;
     color: var(--slate-900);
-    padding: 0 1rem;
+    line-height: 1.2;
+    margin-bottom: -0.25rem;
   }
 
   .subheading {
     font-weight: 400;
     color: var(--slate-500);
-    padding: 0 1rem;
-    margin-bottom: 1rem;
+    padding: 0 1rem 0.5rem;
   }
 }
 
